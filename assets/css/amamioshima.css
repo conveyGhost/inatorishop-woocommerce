@@ -1,0 +1,810 @@
+main#amamioshima {}
+
+.amamioshima-sec-01 {
+    background-color: #0F1212;
+    padding-top: 160px;
+    padding-bottom: 0 !important;
+}
+
+.amamioshima-sec-01 img[alt="amamioshima-bacon"] {
+    width: 60%;
+    margin-right: 0;
+    margin-left: auto;
+
+}
+
+.amamioshima-sec-01 p.text-vertically {
+    position: absolute;
+
+    font-size: 34px;
+    letter-spacing: 0.44em;
+    line-height: 1.9;
+    padding: 1em 1.4em;
+    right: 58%;
+    top: 6%;
+    transform: translateX(20%);
+    height: max-content;
+    font-weight: 900;
+    font-family: var(--font-han);
+    background-image: url('../img/back-skin.png');
+    background-repeat: repeat;
+    z-index: 3;
+}
+/* .amamioshima-sec-01 p.text-vertically:has(font) {
+    position: absolute;
+    font-size: 27px;
+    letter-spacing: 0.44em;
+    line-height: 1.9;
+    padding: 1em 1.4em;
+    right: unset;
+    left: 14%;
+    top: 34%;
+    transform: translateX(20%);
+    height: max-content;
+    font-weight: 900;
+    font-family: var(--font-han);
+    background-image: url(../img/back-skin.png);
+    background-repeat: repeat;
+    z-index: 3;
+    width: 36%;
+} */
+.amamioshima-sec-01 p.text-vertically:has(font) {
+    text-orientation: unset;
+    position: absolute;
+    font-size: 27px;
+    writing-mode: unset;
+    letter-spacing: 0.44em;
+    line-height: 1.9;
+    padding: 1em 1.4em;
+    right: unset;
+    left: 14%;
+    top: 34%;
+    transform: translateX(20%);
+    height: max-content;
+    font-weight: 900;
+    font-family: var(--font-han);
+    background-image: url(../img/back-skin.png);
+    background-repeat: repeat;
+    z-index: 3;
+    width: 36%;
+    letter-spacing: normal;
+}
+
+
+.amamioshima-sec-01 p.text-vertically:has(font) br {
+    display: block;
+}
+
+.amamioshima-sec-01 img[alt="footprint-pattern"] {
+    width: 220px;
+    left: 0;
+    top: 0;
+    transform: translate(-5em, -1em);
+}
+
+@media screen and (max-width: 1024px) {
+    .amamioshima-sec-01 img[alt="amamioshima-bacon"] {
+        width: 100%;
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .amamioshima-sec-01 p.text-vertically {
+        position: absolute;
+        font-size: 16px;
+        letter-spacing: 0.44em;
+        line-height: 1.9;
+        padding: 1em 1.4em;
+        right: 14%;
+        top: 6%;
+        transform: translateX(20%);
+        height: max-content;
+        font-weight: 900;
+        font-family: var(--font-han);
+        background-image: url(../img/back-skin.png);
+        background-repeat: repeat;
+    }
+
+    .amamioshima-sec-01 {
+        padding-top: 132px !important;
+        padding-top: 151px;
+        background-color: #0F1212;
+        padding-top: 160px;
+        padding-bottom: 0 !important;
+    }
+    .amamioshima-sec-01:has(font) {
+        padding-top: 20px !important;
+        padding-top: 151px;
+        background-color: #0F1212;
+        padding-top: 160px;
+        padding-bottom: 0 !important;
+    }
+
+    .amamioshima-sec-01 img[alt="footprint-pattern"] {
+        width: 160px;
+        left: 0;
+        top: 0;
+        transform: translate(-2em, -1em);
+    }
+    .amamioshima-sec-01 p.text-vertically:has(font) {
+        position: relative;
+        transform: translateY(1rem) !important;
+        font-size: 20px;
+        letter-spacing: 0.44em;
+        line-height: 1.9;
+        padding: 1em 1.4em;
+        right: unset;
+        left: 14%;
+        top: 0;
+        transform: translateX(20%);
+        height: max-content;
+        font-weight: 900;
+        font-family: var(--font-han);
+        background-image: url(../img/back-skin.png);
+        background-repeat: repeat;
+        z-index: 3;
+        width: 86%;
+        writing-mode: unset;
+        text-orientation: unset;
+        letter-spacing: normal;
+    }
+}
+
+
+
+/* ====================================== */
+
+
+
+.amamioshima-sec-02 {
+
+    overflow: hidden;
+
+}
+
+.amamio-lists-02 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10%;
+
+}
+
+.amamio-lists-02 li {
+    width: 500px;
+    position: relative;
+    height: fit-content;
+}
+
+.amamio-lists-02 li::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 50%);
+    width: 166px;
+    aspect-ratio: 1/1;
+    background-image: url('../img/amamioshima/black-pattern.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+}
+
+.amamio-lists-02 li * {
+    font-family: var(--font-han);
+}
+
+.amamio-lists-02 li a {
+    aspect-ratio: 500/350;
+}
+
+.amamio-lists-02 li div.content {
+    background-color: #fff;
+    padding: 42px 74px;
+}
+
+.amamio-lists-02 li div.content p:first-child {
+    font-size: 28px;
+    margin-bottom: 1.2em;
+}
+
+.amamio-lists-02 li a {
+    overflow: hidden;
+}
+
+.amamio-lists-02 li a img {
+    transition: all 0.4s ease-in-out;
+}
+
+.amamio-lists-02 li a:hover img {
+    transform: rotate(4deg) scale(1.2);
+}
+
+.amamio-lists-02 li:last-child {
+    margin-top: 10em;
+}
+
+@media screen and (max-width: 1024px) {
+    .amamio-lists-02 li {
+        width: 100%;
+        position: relative;
+        height: fit-content;
+        max-width: 300px;
+    }
+
+    .amamio-lists-02 li div.content {
+        background-color: #fff;
+        padding: 32px 24px;
+    }
+
+    .amamio-lists-02 li div.content p:first-child {
+        font-size: 20px;
+        margin-bottom: 1.2em;
+    }
+    .amamio-lists-02 li div.content p:first-child:has(font) {
+        margin-bottom: 0;
+    }
+
+    .amamio-lists-02 li p.smaller {
+        font-size: 13px;
+    }
+    .amamio-lists-02 li p.smaller > font:nth-of-type(0) {
+        display:none;
+    }
+
+    .amamio-lists-02 li::before {
+        position: absolute;
+        content: "";
+        right: 0;
+        bottom: 0;
+        transform: translate(50%, 50%);
+        width: 96px;
+        aspect-ratio: 1/1;
+        background-image: url(../img/amamioshima/black-pattern.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -1;
+    }
+
+    .amamio-lists-02 li:last-child {
+        margin-top: 4em;
+    }
+
+}
+
+/* ////////////////////////////// */
+main:not(#top) h3 {
+
+    text-align: center;
+    font-size: 60px;
+    color: var(--clr-yellow);
+    font-family: var(--font-han);
+    margin-bottom: 2.2em;
+    text-transform: uppercase;
+}
+main:not(#top) h3:has(font) {
+    font-family: var(--font-roboto);
+}
+main:not(#top) section:not(.page-feature) {
+    padding: 105px 0;
+}
+
+
+@media screen and (max-width: 1024px) {
+    section.page-feature h2 {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.438);
+        color: #fff;
+        padding: 20px 60px;
+        width: max-content;
+        letter-spacing: 0.14em;
+    }
+
+    main:not(#top) section:not(.page-feature) {
+        padding: 50px 0;
+    }
+
+    main:not(#top) h3 {
+        text-align: center;
+        font-size: 28px;
+        color: var(--clr-yellow);
+        font-family: var(--font-han);
+        margin-bottom: 1.4em;
+    }
+}
+
+img[alt="aside_brush_01"] {
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-17%);
+    width: 1920px;
+}
+
+img[alt="aside_brush_02"] {
+    left: 40%;
+    top: 21%;
+    z-index: -1;
+    width: 1580px;
+}
+
+.amamioshima-sec-03 {
+    background-image: url('../img/black-rough-pattern.png');
+    background-repeat: repeat;
+    overflow-x: hidden;
+    position: relative;
+}
+
+div.light-bg {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20%;
+    background-image: url('../img/background-image-light.png');
+    background-repeat: repeat;
+    z-index: 0;
+
+}
+
+.amamioshima-sec-03 .yello-gradient {
+    left: 0;
+    bottom: 14%;
+    width: 100%;
+    height: 20%;
+    background-image: url('../img/amamioshima/yellow-gradient.png');
+    background-position: center;
+    background-position: 0 0;
+    z-index: 1;
+
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 426px) {
+
+    img[alt="aside_brush_01"] {
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: translateX(-17%);
+        width: 500px;
+    }
+
+    img[alt="aside_brush_02"] {
+        left: -40%;
+        top: 20%;
+        z-index: -1;
+        width: 340%;
+    }
+}
+
+/* ///////////////////////////////////////// */
+.amamioshima-sec-03 h3 {
+    text-align: left !important;
+}
+
+.platter-lists li:not(:last-child) {
+    margin-bottom: 10em;
+}
+
+.platter-lists li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-han);
+}
+
+.platter-lists li:nth-child(even) img {
+    order: 1;
+}
+
+.platter-lists li img {
+    flex: 0 0 auto;
+    width: 60%;
+}
+
+.platter-lists li>div.content {
+    flex: 0 0 auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.8em;
+    justify-content: center;
+    padding-left: 3em;
+}
+
+.platter-lists li>div.content * {
+    font-family: var(--font-han);
+    color: #fff;
+}
+
+.platter-lists li>div.content p.title {
+    font-size: 32px;
+}
+
+.platter-lists li>div.content ul li:not(:last-child) {
+    margin-bottom: 1.4em;
+}
+
+.platter-title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding: 0.6em;
+    background-image: url('../img/amamioshima/wood.png');
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 2em;
+    transform: translateY(-60%);
+    z-index: 3;
+}
+.platter-title:has(font) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding: 0.6em;
+    background-image: url(../img/amamioshima/wood.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    column-gap: 2em;
+    transform: translateY(-60%);
+    z-index: 3;
+}
+
+.platter-title .small {
+    font-size: 0.6em;
+}
+
+.platter-lists li:nth-child(even) .platter-title {
+    right: unset;
+    left: 0;
+}
+
+.platter-lists li:last-child .platter-title::after {
+    content: 'ファミリー';
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    left: 17%;
+    top: 0;
+    /* transform: translateY(-100%); */
+}
+
+.amamioshima-sec-03 .mySwiper {
+    overflow-x: hidden;
+    margin-top: 16.6em;
+}
+
+.amamioshima-sec-03 .swiper-wrapper {
+    -webkit-transition-timing-function: linear !important;
+    transition-timing-function: linear !important;
+}
+
+.amamioshima-sec-03 .swiper-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+
+
+}
+
+.amamioshima-sec-03 .transparent-btn {
+    position: relative;
+    margin: 60px auto 54px;
+
+}
+
+.amamioshima-sec-03 .transparent-btn+ul {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.amamioshima-sec-03 .transparent-btn+ul li:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+    .platter-lists li img {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .platter-lists li>div.content {
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.8em;
+        justify-content: center;
+        padding-left: 0;
+        padding: 2em 20px;
+        border: 1px solid #fff;
+        border-top: none;
+    }
+
+    .platter-lists li>div.content p.title {
+        font-size: 20px;
+    }
+
+    .platter-title {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90%;
+        padding: 0.8em;
+        background-image: url(../img/amamioshima/wood.png);
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        column-gap: 2em;
+        transform: translateY(-60%);
+    }
+
+    .platter-title:has(font) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 90%;
+        padding: 0.8em;
+        background-image: url(../img/amamioshima/wood.png);
+        background-position: center center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        font-size: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 2em;
+        transform: translateY(-60%);
+        z-index: 3;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .platter-title .small:has(font) {
+        font-size: 0.6em;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
+
+    .platter-lists li:nth-child(even) img {
+        order: 0;
+    }
+
+    .platter-lists li {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .platter-lists li:not(:last-child) {
+        margin-bottom: 5em;
+    }
+
+    .platter-lists li:last-child .platter-title::after {
+        content: 'ファミリー';
+        position: absolute;
+        font-size: 12px;
+        font-weight: 500;
+        left: 17%;
+        top: 0;
+        /* transform: translateY(-100%); */
+    }
+
+    .platter-lists {
+        padding-top: 2em;
+    }
+
+    .amamioshima-sec-03 .mySwiper {
+        overflow-x: hidden;
+        margin-top: 3.6em;
+    }
+
+    .amamioshima-sec-03 .transparent-btn {
+        position: relative;
+        margin: 60px auto 24px;
+    }
+
+    .amamioshima-sec-03 .transparent-btn+ul {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        padding-left: 2em;
+    }
+}
+
+/* ////////////////////////////////////////// */
+.amamioshima-sec-04 {}
+
+.amamioshima-sec-04 img[alt="store-info"] {
+    order: 1;
+    width: 595px;
+}
+
+.amamioshima-sec-04 .container>div.flex div.content {
+    flex: 0 0 auto;
+    width: 40%;
+    padding-right: 4em;
+    padding-left: 4em;
+    row-gap: 1.2em;
+}
+
+.amamioshima-sec-04 .container>div.flex div.content .title {
+    font-size: 28px;
+    padding-bottom: 1.6em;
+    border-bottom: 1px solid;
+    font-family: var(--font-han);
+}
+
+.amamioshima-sec-04 .container>div.flex div.content .small {
+    line-height: 1.8;
+}
+
+.amamioshima-sec-04 h3 {
+
+    color: var(--clr-yellow);
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.4em;
+    font-family: var(--font-han);
+    position: relative;
+
+}
+
+.amamioshima-sec-04 h3::after {
+    content: "";
+    position: absolute;
+    left: 24%;
+    top: calc(50% - 2px);
+    width: calc(76%);
+    height: 1px;
+    background-color: var(--clr-yellow);
+}
+
+div:has(>img[alt="store-info-01"]) {
+    padding: 316px 0 0;
+}
+
+img[alt="store-info-01"] {
+    left: 0;
+    top: 74px;
+    z-index: -1;
+    width: 36%;
+    max-width: 500px;
+
+}
+
+img[alt="store-info-01"]+div.wrapper {
+
+    width: 70%;
+    padding: 70px 80px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+ul.amamio-lists-04>li {
+    display: grid;
+    grid-template-columns: 140px minmax(0, 1fr);
+    line-height: 1.6;
+}
+
+ul.amamio-lists-04>li:not(:last-child) {
+    margin-bottom: 1.4em;
+}
+
+.amamioshima-sec-04 a.reservation-btn {
+    display: block;
+    margin: 56px auto 0;
+    padding: 20px 0;
+    text-align: center;
+    width: 320px;
+    font-weight: 700;
+
+}
+html[lang='en'] .amamioshima-sec-04 a.reservation-btn {
+    width: fit-content;
+    padding: 20px 6px;
+}
+
+@media screen and (max-width: 1024px) {
+    .amamioshima-sec-04 .container>div.flex div.content {
+        flex: 0 0 auto;
+        width: 100%;
+        padding-right: 2em;
+        padding-left: 2em;
+        row-gap: 1.2em;
+    }
+
+    .amamioshima-sec-04 .container>div.flex div.content .title {
+        font-size: 20px;
+        padding-bottom: 0.4em;
+        border-bottom: 1px solid;
+        font-family: var(--font-han);
+    }
+
+    .amamioshima-sec-04 img[alt="store-info"] {
+        order: 1;
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    div:has(>img[alt="store-info-01"]) {
+        padding: 46px 0 0;
+    }
+
+    img[alt="store-info-01"]+div.wrapper {
+        width: 100%;
+        padding: 50px 22px;
+        margin-right: 0;
+        margin-left: auto;
+        transform: translate(1em, -6em);
+    }
+
+    ul.amamio-lists-04>li {
+        display: grid;
+        grid-template-columns: 100%;
+        line-height: 1.6;
+        row-gap: 1em;
+    }
+
+    ul.amamio-lists-04>li span:last-child {
+        padding-left: 2em;
+        word-wrap: break-word;
+    }
+
+    .amamioshima-sec-04 a.reservation-btn {
+        display: block;
+        margin: 56px auto 0;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+        font-weight: 700;
+    }
+
+    img[alt="store-info-01"] {
+        position: static;
+        left: 0;
+        top: 74px;
+        z-index: -1;
+        width: 92%;
+        max-width: unset;
+    }
+
+    .amamioshima-sec-04 h3::after {
+        content: "";
+        position: absolute;
+        left: unset;
+        right: 0;
+        top: calc(50% - 2px);
+        width: calc(59%);
+        height: 1px;
+        background-color: var(--clr-yellow);
+    }
+}

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Yu Mincho';
+    src: url('../font/yumin.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+
+
+    --font-noto: 'Yu Mincho', sans-serif;
+    --font-han : 'Yu Mincho', sans-serif;
+    --font-roboto:  "Roboto", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* @media screen and (max-width: 768px) {
+    html {
+        font-size: calc(1000vw / 768);
+    }
+} */
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    letter-spacing: 0.1em;
+    font-family: var(--font-noto);
+    font-style: normal;
+    /* color: #404042; */
+    background: url('../img/background-image-light.png');
+    background-repeat: repeat;
+
+}
+html[lang='en'] body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+}
+html[lang='en'] body .notranslate {
+    font-family:  var(--font-noto);
+}
+
+body::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(177, 169, 169);
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 0;
+    padding: 0 0;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+span {
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    /* background-color: inherit; */
+
+}
+
+p {
+    margin: 0 0;
+}
+
+table,
+tr,
+td {
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+figure {
+    margin: 0 0;
+    padding: 0 0;
+}

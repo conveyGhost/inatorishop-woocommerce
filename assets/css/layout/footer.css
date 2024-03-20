@@ -1,0 +1,197 @@
+footer {
+
+}
+footer .pre-footer h2 {
+    text-align: center;
+    color: var(--clr-yellow);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0.8;
+    font-family: var(--font-han);
+    margin-bottom: 1.5em;
+}
+section.instagram-sec {
+    padding: 202px 0 94px;
+    background-image: url('../../img/blackーtex.png');
+    overflow: hidden;
+}
+/* section.instagram-sec h2 {
+    text-align: center;
+    color: var(--clr-yellow);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0.8;
+    font-family: var(--font-han);
+    margin-bottom: 1.5em;
+} */
+section.instagram-sec h2 span {
+    font-size: 0.6em;
+}
+section.instagram-sec #instagramLists {
+    column-gap: 2em;
+    row-gap: 2em;
+}
+section.instagram-sec #instagramLists li {
+    max-width: 500px;
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+section.instagram-sec img#patternWaveInstagram {
+    width: 420px;
+    height: auto;
+    right: 0;
+    bottom: -2em;
+}
+
+/* ===============================section access===================== */
+section.access-sec {
+    padding: 98px 0 86px;
+    /* background-image: url('../../img/back-skin.png');
+    background-repeat: repeat; */
+    
+}
+section.access-sec .map-wrapper {
+    height: 30em;
+
+}
+section.access-sec .map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ======================== real footer===================== */
+article.real-footer {
+    background: #000;
+    background-repeat: repeat;
+    color: #fff;
+}
+article.real-footer * {
+    color: #fff;
+}
+article.real-footer > div {
+    padding: 62px 0;
+    column-gap: 5%;
+
+}
+.footer-global-menu {
+    border-left: 1px solid;
+}
+.footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    text-align: center;
+    
+}
+.footer-global-menu {
+    padding-left: 40px;
+}
+.footer-global-menu-lists li {
+    width: 100%;
+    height: fit-content;
+}
+.footer-global-menu-lists li a {
+    /* padding: 20px 30px; */
+    font-size: 18px;
+    letter-spacing: 0.14em;
+    line-height: 3;
+}
+.footer-global-menu-lists li a:hover {
+    opacity: 0.6;
+}
+.footer-logo {
+    font-size: 30px;
+}
+.footer-logo span {
+    font-size: 10px;
+}
+.footer-contact-info .phone {
+    font-size: 20px;
+    text-align: center;
+}
+.footer-contact-info .phone + a {
+    font-size: 10px;
+    background-color: var(--clr-red);
+    color: #fff;
+    font-weight: 700;
+    line-height: 4.2;
+    width: 100%;
+}
+.footer-contact-info .phone + a:has(span.en) {
+    font-size: 16px;
+    background-color: var(--clr-red);
+    color: #fff;
+    font-weight: 700;
+    line-height: 4.2;
+    width: 100%;
+}
+article.real-footer > p {
+    padding: 10px 0 40px;
+}
+
+@media screen and (max-width: 1024px){
+    footer .pre-footer h2 {
+        text-align: center;
+        color: var(--clr-yellow);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 0.8;
+        font-family: var(--font-han);
+        margin-bottom: 1.5em;
+    }
+    section.instagram-sec {
+        padding: 60px 0 80px;
+        background-image: url(../../img/blackーtex.png);
+        overflow: hidden;
+    }
+    section.instagram-sec #instagramLists {
+        column-gap: 5%;
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    section.instagram-sec #instagramLists li {
+        max-width: 320px;
+        /* margin: auto; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    section.instagram-sec img#patternWaveInstagram {
+        width: 170px;
+        height: auto;
+        right: 0;
+        bottom: -2em;
+        z-index: 0;
+    }
+    article.real-footer > div {
+        padding: 62px 0 20px;
+        column-gap: 5%;
+        flex-wrap: wrap;
+        row-gap: 3em;
+    }
+    .footer-global-menu {
+        padding-left: 0;
+        border-left: none;
+        border-top: 1px solid;
+        width: 80%;
+        padding-top: 20px;
+    }
+    article.real-footer > p {
+        padding: 10px 0 70px;
+    }
+}

@@ -1,0 +1,54 @@
+
+main#access {
+    color: #231815;
+}
+.access-content-sec {
+    padding: 52px 0 124px;
+    overflow-x: hidden;
+
+}
+.access-content-sec .map-wrapper {
+    width: 100%;
+    height: 30em;
+}
+.access-content-sec .map-wrapper iframe {
+    display: inline-block;
+    width: 100% !important;
+    height: 100% !important;
+}
+.access-content-sec img[alt="access-guide"] {
+    width: 470px;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .access-content-sec img[alt="access-guide"] {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section.page-feature {
+        padding: 0 0;
+        height: 30vh;
+    }
+    section.page-feature h2 {
+        font-size: 29px;
+        font-weight: 700;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.438);
+        color: #fff;
+        padding: 30px 60px;
+        width: max-content;
+    }
+    section.page-feature h2:has(font) {
+        width: 100%;
+    }
+    /* .access-content-sec .map-wrapper {
+        width: 500px;
+        height: 30em;
+        margin: 0 calc((-500px + 100%) / 2);
+    } */
+    
+}

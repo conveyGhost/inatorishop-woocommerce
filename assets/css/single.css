@@ -1,0 +1,9 @@
+main#postSingle {
+
+}
+main#postSingle h4 {
+    font-size: 50px;
+    color: var(--clr-yellow);
+    text-align: center;
+    margin-bottom: 3em;
+}
